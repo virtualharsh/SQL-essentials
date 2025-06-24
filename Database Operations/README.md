@@ -2,6 +2,14 @@
 
 `Note :` Given commands in `square brackets [] are optional`;
 
+- [Listing all databases](#listing-all-databases)
+- [Creating a database](#creating-a-database)
+- [Altering the database](#altering-the-database)
+- [Currently working database](#currently-working-database)
+- [Change currently working database](#change-currently-working-database)
+- [Dropping the database](#dropping-the-database)
+
+
 ## Listing all databases
 ```sql
 \l+
@@ -87,7 +95,7 @@ ALTER DATABASE target_database OWNER TO new_owner;
 ALTER DATABASE target_database SET TABLESPACE new_tablespace;
 ```
 
-## Currently working user and database
+## Currently working database
 ```
 \c
 ```
