@@ -106,7 +106,7 @@ ALTER DATABASE target_database SET TABLESPACE new_tablespace;
 ```
 
 ## Dropping the database
-```
+```sql
 DROP DATABASE db_name
 ```
 
