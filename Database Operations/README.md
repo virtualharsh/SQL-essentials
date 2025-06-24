@@ -87,3 +87,19 @@ ALTER DATABASE target_database OWNER TO new_owner;
 ALTER DATABASE target_database SET TABLESPACE new_tablespace;
 ```
 
+## Currently working user and database
+```
+\c
+```
+
+## Change currently working database
+```
+\c db_name
+```
+
+## Dropping the database
+```
+DROP DATABASE db_name
+```
+
+`Note`: if you encounter error use `\c postgres` and run the DROP command again.
